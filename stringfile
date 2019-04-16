@@ -1,0 +1,40 @@
+<?php
+function getconfig_callbackapi($r, $user, &$result) {
+	$config = Array();
+	$config['colorPrimary'] = #990048;
+	$config['colorPrimary']= 0xD81B60;
+	$config['colorAccent']= #d33241;
+	$config['signup_headingtext']= 'Let\'s get to know you…';
+	$config['welcomescreen1heading'] ='Tired of dating apps ?';
+	$config['welcomescreen1subtext'] ='Meet interesting people-connect instantly via chat,voice or video call.Get comfy with zero creepiness.' ;
+	$config['welcomescreen2heading'] ='Just Tag it !' ;
+	$config['welcomescreen2subtext'] ='Use topic-tags to match live on video call or create your own in posts and pick responses.' ;
+	$config['welcomescreen3heading'] ='You are in control...' ;
+	$config['welcomescreen3subtext'] ='Chat or Call - Choose how users respond to your posts. Cherry pick audience with our exclusive filters.' ;
+	$config['transitionscreen_text']= 'Welcome, Let\'s create your first post';
+	$config['home_topmaintext']  ='Talk';
+	$config['home_bottommaintext'] ='Get noticed';
+	$config['home_topsubtext']  ='Find folks with similar interests';
+	$config['home_bottomsubtext'] ='Ask.Share.Invite';
+	$config['home_appname'] ='Wyngit';
+	$config['bottom_navbar2'] ='Feeds';
+	$config['bottom_navbar3'] ='Chats';
+	$config['chat_tab1'] ='Requests';
+	$config['chat_tab2'] ='Chats';
+	$config['chat_tab3'] ='Calls';
+	$config['bottom_navbar4'] ='My Profile';
+	$config['age_upperlimit'] ='80';
+	$config['age_lowerlimit']='10';
+	$config['font_headings']='Serif';
+	$config['font_content']='Roboto';
+	$config['meetlocaldist_max']= 50;
+	$config['meetlocaldist_min']=1;
+	$config['about_app']='Wyngit is the source for fun.\nWe would love to hear from you, Grab us! wyngitapp@gmail.com"';
+	$config['invite_friend']='Just Wyng it!';
+	$config['invite_friend_link']= 'Insert_playstore_link';
+	$config['special_msg']= 'Let\'s Wyng it!';
+	$config['requests_headermsg']= 'View all your requests awaiting approval here';
+	$config['chats_headermsg']= 'Make a move, type!';
+	$result['c'] = $config;
+	return true;
+}
